@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulir pendaftaran Ekstrakulikuler</title>
+  </head>
+  <body>
+    <h1>formulir pendaftaran Ekstrakulikuler.</h1>
+    <form action="/proses pendaftaran" method="post"></form>
+    <!-- informasi pendaftar -->
+    <h2>informasi pendaftar</h2>
+    <label for="nama">Nama Lengkap:</label>
+
+    <br />
+    <input type="text" id="nama" name="nama" placeholder="nafis" required />
+    <br /><br />
+    <label for="email">Alamat Email:</label>
+    <br />
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="nafisazmi@.com"
+      required
+    />
+    <br />
+    <br />
+    <label for="telepon">Nomor teleppon:</label>
+    <br />
+    <input
+      type="tel"
+      id="telepon"
+      name="telepon"
+      placeholder="+620882010450107"
+    />
+    <br />
+    <br />
+    <label for="tgl-lahir">Tanggal Lahir:</label><br />
+    <input type="date" id="tgl-lahir" name="tgl-lahir" />
+    <br />
+    <br />
+    <p>Jenis Kelamin:</p>
+    <label
+      ><input type="radio" name="jenis-kelamin" value="laki-laki" />
+      Laki-laki</label
+    >
+
+    <label
+      ><input
+        type="radio"
+        name="jenis-kelamin"
+        value="perempuan"
+      />perempuan</label
+    >
+    <br />
+    <br />
+    <h2>Pilihan Ekstrakulikuler</h2>
+    <label><input type="checkbox" name="minat" value="futsal" />futsal</label>
+    <label
+      ><input type="checkbox" name="minat" value="Berenang" />Berenang</label
+    >
+    <label><input type="checkbox" name="minat" value="Berkuda" />Berkuda</label>
+    <br />
+    <br />
+    <label for="bio">Bio Singkat:</label><br />
+    <textarea
+      id="bio"
+      name="bio"
+      rows="4"
+      placeholder="Ceritakan sedikit tentang diri Anda..."
+    ></textarea>
+    <br />
+  </body>
+</html>
